@@ -1,0 +1,20 @@
+<!--Display welcome message using ng-model-->
+<html>
+<head></head>
+<body ng-app="" background="wallpaper1.jpg">
+<br>
+<br>
+<div align="center">
+<h3>Developing webpage using Angular js by <mark><span style="color:red">Adriza Banerjee</span></mark></h3>
+</div>
+<hr/>
+<div ng-init="x='@dr!z@'" align="center">
+<h2> remove user name and type your name...</h2>
+ Enter user name:
+ <input type="text" ng-model="x"/>
+<br/>
+<h1><span style="color:blue"> WElCOME to {{x}}</span></h1>
+</div>
+<script src="angular.js"></script>
+</body>
+</html>
